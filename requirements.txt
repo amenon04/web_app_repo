@@ -1,6 +1,7 @@
 #this is the 'requirements.txt' file
 
 pytest
+pandas
 
 # web app
 flask

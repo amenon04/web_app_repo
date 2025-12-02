@@ -1,7 +1,12 @@
 # this is the "requirements.txt" file...
 
-pytest
+# stocks:
 pandas
+python-dotenv
+plotly
 
-# web app
+# web app:
 flask
+
+# testing:
+pytest

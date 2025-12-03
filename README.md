@@ -9,7 +9,7 @@ Clone the repo to download it from GitHub. Perhaps onto the Desktop.
 Navigate to the repo using the command line.
 
 ```sh
-cd ~/Desktop/my-first-repo-fall-2025
+cd ~/Desktop/web_app_repo
 ```
 
 Create a virtual environment:

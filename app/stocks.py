@@ -15,7 +15,7 @@ def fetch_stocks_csv(symbol="NFLX"):
         symbol (str) like "NFLX"
     Return a pandas DataFrame with the time series data.
     """
-    request_url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={ALPHAVANTAGE_API_KEY}&datatype=csv"
+    request_url = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={ALPHAVANTAGE_API_KEY}&datatype=csv'
     stocks_df = read_csv(request_url)
     return stocks_df
 

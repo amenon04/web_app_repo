@@ -15,3 +15,4 @@ def test_data_fetching():
     assert "adjusted_close" in stocks_df.columns
 
     assert len(stocks_df) >= 100
+
